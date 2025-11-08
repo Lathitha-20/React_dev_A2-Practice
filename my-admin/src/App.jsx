@@ -4,9 +4,7 @@ import { createTrailbaseProvider } from "./ra-trailbase";
 import { CreateUser, LoginPage } from "./create_user";
 
 const TRAILBASE_URL = "https://fantastic-rotary-phone-wr9q57gqqvjr3grq9-4000.app.github.dev/";
-const { dataProvider, authProvider } = await createTrailbaseProvider(
-  TRAILBASE_URL,
-);
+const { dataProvider, authProvider } = createTrailbaseProvider(TRAILBASE_URL);
 
 function App() {
   return (
