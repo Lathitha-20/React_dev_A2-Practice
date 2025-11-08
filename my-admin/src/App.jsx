@@ -2,7 +2,6 @@ import { Admin, CustomRoutes } from "react-admin";
 import { Route } from "react-router-dom";
 import { createTrailbaseProvider } from "./ra-trailbase";
 import { CreateUser, LoginPage } from "./create_user";
-
 import { EmployeeList, EmployeeEdit, EmployeeCreate } from "./resources/employees";
 import { DepartmentList, DepartmentEdit, DepartmentCreate } from "./resources/departments";
 import { ProjectList, ProjectEdit, ProjectCreate } from "./resources/projects";
